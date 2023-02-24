@@ -3,11 +3,11 @@
   "exclude": ["node_modules"],
   "include": ["./src/**/*", "index.ts"],
   "compilerOptions": {
+    "esModuleInterop": true,
     "skipLibCheck": true,
     "target": "es2016",
     "module": "commonjs",
-    "lib": ["DOM", "ESNext"],
-    "esModuleInterop": true,
+    "lib": ["DOM", "ESNext", "dom.iterable"],
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "outDir": "lib",
