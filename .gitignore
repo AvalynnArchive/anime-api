@@ -1,0 +1,6 @@
+node_modules
+.env
+typings/
+lib/
+.env
+package-lock.json
